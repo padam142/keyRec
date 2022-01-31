@@ -1,0 +1,10 @@
+#define DLL_EXTRA_PATH "c:\\users\\default.laptop-9fs4aujd\\appdata\\local\\programs\\python\\python38-32"
+#define NO_PYTHON_WARNINGS 0
+#define NUITKA_MAIN_MODULE_NAME "__main__"
+#define PYTHON_HOME_PATH "C:\\Users\\default.LAPTOP-9FS4AUJD\\AppData\\Local\\Programs\\Python\\Python38-32"
+#define SYSFLAG_BYTES_WARNING 0
+#define SYSFLAG_NO_RANDOMIZATION 0
+#define SYSFLAG_NO_SITE 0
+#define SYSFLAG_OPTIMIZE 0
+#define SYSFLAG_UTF8 0
+#define SYSFLAG_VERBOSE 0

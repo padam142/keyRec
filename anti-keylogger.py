@@ -1,5 +1,6 @@
 import keyboard  # using module keyboard
 import random
+import string
 import time
 from pynput.keyboard import Controller
 from pynput.keyboard import Key, Listener
@@ -7,6 +8,9 @@ from pynput.keyboard import Key, Listener
 keyboard1 = Controller()
 
 var=["a","b","c","i","o","u","1","2","3","@","%","*","A","B","C","E","I","O","U"]
+
+randomletter = random.choices(string.ascii_letters)
+print(randomletter[0])
 
 def keyChange():
     for i in var:
@@ -82,8 +86,6 @@ while True:  # making a loop
         elif keyboard.is_pressed('4'):
             keyboard1.type(keyChange())
         elif keyboard.is_pressed('5'):
-            keyboard1.type(keyChange())
-        elif keyboard.is_pressed('6'):
             keyboard1.type(keyChange())
         elif keyboard.is_pressed('7'):
             keyboard1.type(keyChange())
